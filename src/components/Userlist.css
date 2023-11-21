@@ -1,0 +1,37 @@
+.user-list-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+  }
+  
+  .user-card {
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 2px 2px rgb(121, 120, 120);
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(250, 166, 166);
+    font: 1.3em sans-serif;
+    
+  }
+  img{
+    display: block;
+    margin: auto;
+  }
+  
+  @media (max-width: 600px) {
+    .user-list-container {
+      padding: 10px;
+    }
+  
+    .user-card {
+      margin: 5px;
+    }
+  }
+  .team-section{
+    text-align: center;
+    
+  }
+  .team{
+    border: 2px solid black;
+    border-radius: 1.4rem;
+  }
