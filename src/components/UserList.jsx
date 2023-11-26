@@ -17,7 +17,7 @@ const UserList = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('https://backendserver-1fai.onrender.com');
+        const response = await axios.get('https://kjkj-rgob.onrender.com');
         setUsers(response.data);
         console.log(response.data)
       } catch (error) {
