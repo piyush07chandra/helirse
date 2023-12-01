@@ -17,9 +17,8 @@ const UserList = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('https://kjkj-rgob.onrender.com');
+        const response = await axios.get('https://serverl.onrender.com/');
         setUsers(response.data);
-        console.log(response.data)
       } catch (error) {
         console.error('Error fetching users:', error);
       }
